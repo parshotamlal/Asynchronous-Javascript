@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata and responsive design setup -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Callbacks</title>
+
+  <!-- Internal CSS styling -->
+  <style>
+    /* General page styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    /* Main heading styling */
+    h1 {
+      color: #333;
+    }
+
+    /* Button styling */
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      margin-top: 20px;
+      border: none;
+      background-color: #28ca2e;
+      color: rgb(255, 249, 249);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Button hover effect */
+    button:hover {
+      background-color: #037307;
+    }
+
+    /* Output box styling */
+    #output {
+      margin-top: 30px;
+      padding: 20px;
+      background: white;
+      width: 500px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page title -->
+  <h1>Callback with API Example</h1>
+
+  <!-- Button to trigger the callback function -->
+  <button onclick="executeWithCallback()">Run Callback</button>
+
+  <!-- Div to display the output -->
+  <div id="output">Click the button to start...</div>
+
+</body>
+
+<!-- External JavaScript file -->
+<script src="callbacks.js"></script>
+</html>
