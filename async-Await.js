@@ -44,4 +44,3 @@ async function fetchPosts() {
       console.error('Fetch error:', error);
     }
   }
-

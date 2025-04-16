@@ -3,73 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title-->
     <title>Async/Await Task</title>
 </head>
 <body>
+
   <!-- Styling Section -->
   <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: #e0f7fa;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e0f7fa; /* Light blue background */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     }
+
+   /* container of content */
 
     .container {
       max-width: 700px;
-      margin: 80px auto;
-      background-color: #ffffff;
+      margin: 80px auto; /* Center the container */
+      background-color: #ffffff; /* White background */
       padding: 40px;
       border-radius: 10px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /*  shadow */
       text-align: center;
     }
 
     h1 {
-      color: #006064;
+      color: #006064; /* Dark teal color */
       margin-bottom: 30px;
     }
-
+/* button style */
     button {
       padding: 12px 25px;
-      background-color: #00796b;
+      background-color: #00796b; /* Teal color */
       color: #fff;
       border: none;
       border-radius: 6px;
       font-size: 16px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease; /* Smooth hover effect */
     }
-
+/* button hover style*/
     button:hover {
-      background-color: #061714;
+      background-color: #061714; /* Dark color on hover */
     }
-
+/* output section style */
     #output {
       margin-top: 30px;
       padding: 20px;
-      background-color: #f1f8e9;
-      border: 1px solid #c5e1a5;
+      background-color: #f1f8e9; /* Light green background */
+      border: 1px solid #c5e1a5; /* Light green border */
       border-radius: 8px;
-      color: #103302;
+      color: #103302; /*  green text */
       font-size: 15px;
-      min-height: 60px;
-      text-align: left;
+      min-height: 60px; /*minimum height */
+      text-align: left; /* Align text  */
     }
 
     .error {
       color: red;
-      font-weight: bold;
+      font-weight: bold; /* Bold red for error messages */
     }
   </style>
-</head>
-<body>
+
+  <!-- Content of the web page -->
   <div class="container">
-    <h1>Async/Await </h1>
-    <button onclick="fetchPosts()">Fetch Posts</button>
-    <div id="output">Click the button to load content here.</div>
+     <!-- Title -->
+    <h1>Async/Await</h1> <!-- Title -->
+    <button onclick="fetchPosts()">Fetch Posts</button> <!-- Button to get posts -->
+    <div id="output">Click the button to load content here.</div> <!-- Where results show -->
   </div>
 
 </body>
+
+<!-- Link to the JavaScript file -->
 <script src="async-Await.js"></script>
 </html>
