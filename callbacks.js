@@ -35,6 +35,6 @@ function simulateDelay(callback) {
     const outputDiv = document.getElementById('output'); // Find the box where we show the message
     outputDiv.textContent = "Waiting for 5 seconds..."; // Show waiting message
   
-    simulateDelay(fetchDataAndDisplay); // Wait 5 seconds, then get and show the data
+    simulateDelay(fetchDataAndDisplay); 
   }
   
